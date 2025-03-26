@@ -1,13 +1,14 @@
-## langchain-postgresql-pgvector
-This repository provides guidance on using a PostgreSQL vector database with the pgvector extension.
+## **LangChain with PostgreSQL and pgvector**  
 
-## Objectives
+This repository provides a guide on integrating a PostgreSQL vector database with the **pgvector** extension for efficient embedding storage and retrieval.  
 
--- Set up PostgreSQL with the pgvector extension in a Docker container, and create database
--- Use langchain to add embeddings to database, created with OpenAI's  text-embedding-ada-002 embedding model
--- Query the database from langchain to find the most similar embeddings to a given query
--- Query the database with SQL and explore pgvector features
--- Explore the concept of a vector database, and why it may be helpful in developing applications using LLMs
+## **Objectives**  
+
+- Set up PostgreSQL with the **pgvector** extension inside a Docker container and create a database.  
+- Use **LangChain** to store embeddings generated with OpenAI’s **text-embedding-ada-002** model.  
+- Perform similarity searches in the database using LangChain.  
+- Query the database directly with SQL to explore **pgvector** features.  
+- Understand the fundamentals of vector databases and their role in developing applications powered by **LLMs**.  
 
 ## Using pgvector for Storing Embeddings  
 
